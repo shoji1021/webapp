@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>Welcome to your Vue.js app!</p>
+    <p>テスト用練習WEBサイト</p>
   </div>
 </template>
 
