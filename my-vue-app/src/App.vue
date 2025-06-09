@@ -1,7 +1,3 @@
-<template>
-  <HelloWorld msg="Hello World!" />
-</template>
-
 <script lang="ts">
 import { defineComponent } from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
@@ -12,6 +8,11 @@ export default defineComponent({
   }
 });
 </script>
+
+<template>
+  <HelloWorld message="Hello World"/>
+</template>
+
 
 <style>
 #app {
