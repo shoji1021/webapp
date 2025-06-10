@@ -19,7 +19,7 @@ export default defineComponent({
 
 <style scoped>
 .nav {
-  background-color: #8282828b;
+  background-color: #ffffffd3;
   text-align: center;
   top: 0px;
   height: 70px;
