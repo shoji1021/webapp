@@ -1,16 +1,18 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
-
+import NavBar from './components/nav.vue';
 export default defineComponent({
   components: {
-    HelloWorld
+    HelloWorld,
+    NavBar
   }
 });
 </script>
 
 <template>
-  <HelloWorld message="Hello World"/>
+  <NavBar/>
+  <HelloWorld message="WEB-APP"/>
 </template>
 
 
@@ -21,6 +23,11 @@ export default defineComponent({
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
+}
+NavBar{
+  background-color: #000000;
+  text-align: center;
+  top: 0px;
 }
 </style>

@@ -1,5 +1,5 @@
 export interface HelloWorldProps {
-  msg: string;
+  message: string;
 }
 
 export interface User {

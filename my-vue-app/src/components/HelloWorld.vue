@@ -23,6 +23,5 @@ export default defineComponent({
 <style scoped>
 .hello {
   text-align: center;
-  margin-top: 20px;
 }
 </style>
